@@ -28,14 +28,9 @@ npm init -y
 npm install express stripe dotenv cors
 ```
 
-3. Install development dependencies:
-```bash
-npm install -D tsx
+3. Create a `.env` file in the root directory and add your Stripe API keys:
 ```
-
-4. Create a `.env` file in the root directory and add your Stripe API keys:
-```
-STRIPE_SECRET_KEY=your_stripe_secret_key
+STRIPE_SECRET_KEY=<your_stripe_secret_key>
 ```
 
 ## Running the Application
@@ -51,7 +46,7 @@ npx tsx server.ts
 ```bash
 npx serve .
 ```
-
+5. The frontend will run on port 3000 by default
 
 ## Project Structure
 
